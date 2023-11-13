@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Prep App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <div class="selector">
+            <select id="companySelect">
+                <option value="Amazon">Amazon</option>
+                <!-- Add other companies here -->
+            </select>
+            <select id="categorySelect">
+                <!-- Categories will be loaded based on the company selection -->
+            </select>
+        </div>
+        <div class="question-box">
+            <p id="questionText">After selection is made questions populate here.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
